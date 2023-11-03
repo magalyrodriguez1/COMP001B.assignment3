@@ -21,10 +21,7 @@ aside {
 	left: 50px;
 }
 
-footer {
-
-}
-
+/*added margin to header & nav to make the left margin be not too close to the edge of the screen*/
 header {
 	margin-left: 30px;
 }
@@ -47,8 +44,5 @@ nav {
 
 #copyright {
 	font-size: 80%;
-	clear: both;
-}
-
-#main-container {
+	clear: left;
 }
